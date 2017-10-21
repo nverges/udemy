@@ -24,7 +24,7 @@ require('./routes/authRoutes')(app);
 
 
 // Event Listener
-port = process.env.PORT || 3000;
+PORT = process.env.PORT || 3000;
 
-app.listen(port);
-console.log('app listening on ' + port)
+app.listen(PORT);
+console.log('app listening on ' + PORT)
